@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+a, a:visited, a:hover {
+    text-decoration: none;
+}
+main a { color: #0054b9; }
+a:hover { color: #c00; }
+
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main, footer {
+    width: 100%;
+    height: calc(100vh - 100px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    width: 50%;
+    padding-left: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.logo {  padding-left: 0; }
+.logo-icon { width: 100px; }
+.logo-search { 
+    margin-left: 20px; 
+    width: calc(100% - 120px); 
+    display: flex;
+}
+.logo-search input { 
+    height: 2.5em;
+    font-size: 18px;
+    border: solid 2px #fc0;
+    outline: none;
+}
+.logo-search input[type="text"] {
+    border-right: none;
+    border-radius: 0.5em 0 0 0.5em;
+    padding-left: 0.5em;
+    flex-grow: 1;
+}
+.logo-search input[type="button"] {
+    border-radius: 0 0.5em 0.5em 0;
+    padding: 0 15px;
+    background-color: #fc0;
+    transition: .15s ease-out;
+}
+.logo-search input[type="button"]:hover {
+    background-color: #f2c200;
+}
+
+.error {
+    flex-direction: column;
+    align-items: flex-start;
+}
+.error span, .error h1 { line-height: 200%; }
+
+.menu {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.menu-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+.menu-item::before {
+    content: '';
+    margin-right: 0.6em;
+    display: block;
+    width: 1.2em;
+    height: 1.2em;
+    border-radius: 50%;
+    background-color: #fc0;
+}
+
+footer {
+    padding-left: 25%;
+    height: 100px;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-bottom: 0;
+}
+.footer-text {
+    color: #999;
+    margin-right: 2em;
+    transition: color .15s ease-out;
+}
