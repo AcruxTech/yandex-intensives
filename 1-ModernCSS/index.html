@@ -8,32 +8,32 @@
     <title>Modern CSS</title>
 </head>
 <body>
-    <main>
-        <section class="logo">
-            <a href="https://ya.ru"><img src="src/logo.svg" alt="logo" class="logo-icon"></a>
-            <form class="logo-search">
-                <input type="text" placeholder="Найдётся всё">
-                <input type="button" value="Найти">
+    <main class="main">
+        <section class="search">
+            <a href="https://ya.ru"><img class="search__logo" src="src/logo.svg" alt="logo"></a>
+            <form class="search__form">
+                <input class="search__form-input" type="text" placeholder="Найдётся всё">
+                <button class="search__form-btn" type="sumbit">Найти</button>
             </form>
         </section>
         <section class="error">
-            <h1 class="error-title">Ошибка 404. Нет такой страницы.</h1>
-            <span class="error-message">Если вы считаете, что страницы нет по нашей вине, <a href="#">напишите нам.</a></span>
+            <h1 class="error__title">Ошибка 404. Нет такой страницы.</h1>
+            <span class="error__message">Если вы считаете, что страницы нет по нашей вине, <a href="#">напишите нам.</a></span>
         </section>
-        <section class="menu">
-            <span class="menu-item"><a href="#">Еда</a> — где заказать пиццу</span>
-            <span class="menu-item"><a href="#">Едадил</a> — теперь и для семьи</span>
-            <span class="menu-item"><a href="#">Маркет</a> — узнайте, где дешевле</span>
-            <span class="menu-item"><a href="#">Практикум</a> — удалённый заработок</span>
-            <span class="menu-item"><a href="#">Музыка</a> — подкасты где угодно</span>
-            <span class="menu-item"><a href="#">Кинопоиск</a> — "Нулевой пациент"</span>
-            <span class="menu-item"><a href="#">Толока</a> — удаленный заработок</span>
+        <section class="services">
+            <span class="service__item"><a href="#">Еда</a> — где заказать пиццу</span>
+            <span class="service__item"><a href="#">Едадил</a> — теперь и для семьи</span>
+            <span class="service__item"><a href="#">Маркет</a> — узнайте, где дешевле</span>
+            <span class="service__item"><a href="#">Практикум</a> — удалённый заработок</span>
+            <span class="service__item"><a href="#">Музыка</a> — подкасты где угодно</span>
+            <span class="service__item"><a href="#">Кинопоиск</a> — "Нулевой пациент"</span>
+            <span class="service__item"><a href="#">Толока</a> — удаленный заработок</span>
         </section>
     </main>
-    <footer>
-        <a href="#" class="footer-text">Компания</a>
-        <a href="#" class="footer-text">About</a>
-        <a href="#" class="footer-text">&copy; Яндекс</a>
+    <footer class="footer">
+        <a class="footer__item" href="#">Компания</a>
+        <a class="footer__item" href="#">About</a>
+        <a class="footer__item" href="#">&copy; Яндекс</a>
     </footer>
 </body>
 </html>
