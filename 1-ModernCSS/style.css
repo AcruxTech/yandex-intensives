@@ -30,30 +30,30 @@ section {
 
 .search {  padding-left: 0; }
 .search__logo { width: 100px; }
-.search__form { 
+.form { 
     margin-left: 20px; 
     width: calc(100% - 120px); 
     display: flex;
 }
-.search__form_input, .search__form_btn { 
+.form__input, .form__btn { 
     height: 2.5em;
     font-size: 18px;
     border: solid 2px #fc0;
     outline: none;
 }
-.search__form_input {
+.form__input {
     border-right: none;
     border-radius: 0.5em 0 0 0.5em;
     padding-left: 0.5em;
     flex-grow: 1;
 }
-.search__form_btn {
+.form__btn {
     border-radius: 0 0.5em 0.5em 0;
     padding: 0 15px;
     background-color: #fc0;
     transition: .15s ease-out;
 }
-.search__form_btn:hover {
+.form__btn:hover {
     background-color: #f2c200;
 }
 
