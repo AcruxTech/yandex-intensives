@@ -7,6 +7,7 @@
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
 }
+ul, li { list-style: none; }
 a, a:visited, a:hover { text-decoration: none; }
 main a { color: #0054b9; }
 a:hover { color: #c00; }
@@ -64,15 +65,16 @@ section {
 .error__title, .error__message { line-height: 200%; }
 
 .services {
-    display: grid;
-    grid-template-columns: 50% 50%;
-}
-.service__item {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
+}
+.services__column { width: 50%; }
+.services__item {
+    display: flex;
+    flex-wrap: wrap;
     margin-bottom: 8px;
 }
-.service__item::before {
+.services__item::before {
     content: '';
     margin-right: 0.6em;
     display: block;
