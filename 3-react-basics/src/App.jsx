@@ -1,11 +1,11 @@
-import {Layout } from "./components/Layout/Layout";
-import { CinemaPage } from "./pages/CinemaPage/CinemaPage";
-import { cinemas } from "./constants/mock";
+import { Layout } from './components/Layout/Layout';
+import { BooksPage } from './pages/BooksPage/BooksPage';
+import { BookPage } from './pages/BookPage/BookPage' 
+import { books } from './constants/mock';
 
-const test = 'Hello'
 
-export function App() {
-    return <Layout a={test}>
-        <CinemaPage cinemas={cinemas}/>
+export const App = () => {
+    return <Layout>
+        <BooksPage books={books}></BooksPage>
     </Layout>
 }

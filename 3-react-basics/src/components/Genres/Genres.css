@@ -1,0 +1,15 @@
+.genres {
+    width: 23%;
+    min-height: 70vh;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.genres ul {
+    list-style-type: none;
+}
+
+.genres ul li {
+    margin-bottom: 24px;
+}
