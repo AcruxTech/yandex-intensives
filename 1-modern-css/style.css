@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+ul, li { list-style: none; }
+a, a:visited, a:hover { text-decoration: none; }
+main a { color: #0054b9; }
+a:hover { color: #c00; }
+
+main {
+    width: 100%;
+    min-height: calc(100vh - 100px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+section {
+    width: 50%;
+    padding-left: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.wrapper { padding-left: 0; }
+.logo { width: 100px; }
+.search { 
+    margin-left: 20px; 
+    width: calc(100% - 120px); 
+    display: flex;
+}
+.search__input, .search__btn { 
+    height: 2.5em;
+    font-size: 18px;
+    border: solid 2px #fc0;
+    outline: none;
+}
+.search__input {
+    border-right: none;
+    border-radius: 0.5em 0 0 0.5em;
+    padding-left: 0.5em;
+    flex-grow: 1;
+}
+.search__btn {
+    border-radius: 0 0.5em 0.5em 0;
+    padding: 0 15px;
+    background-color: #fc0;
+    transition: .15s ease-out;
+}
+.search__btn:hover {
+    background-color: #f2c200;
+}
+
+.error {
+    flex-direction: column;
+    align-items: flex-start;
+}
+.error__title, .error__message { line-height: 200%; }
+
+.services {
+    display: flex;
+    align-items: flex-start;
+}
+.services__list {
+    width: 100%; 
+    column-count: 2;
+}
+.services__item {
+    display: flex;
+    word-break: break-all;
+    margin-bottom: 8px;
+}
+.services__item::before {
+    content: '';
+    margin-right: 0.6em;
+    display: block;
+    min-width: 1.2em;
+    height: 1.2em;
+    border-radius: 50%;
+    background-color: #fc0;
+}
+.services__item a { word-break: normal; }
+
+.footer {
+    width: 100%;;
+    height: 100px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 25%;
+}
+.footer__item {
+    color: #999;
+    margin-right: 2em;
+    transition: color .15s ease-out;
+}
