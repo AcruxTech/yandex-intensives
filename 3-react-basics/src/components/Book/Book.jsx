@@ -1,5 +1,5 @@
 export const Book = ({ book }) => {
-    console.log(book)
+    // console.log(book)
     
     return <div>
        

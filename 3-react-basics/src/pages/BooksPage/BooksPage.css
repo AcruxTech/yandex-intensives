@@ -5,3 +5,23 @@
     align-items: center;
     justify-content: space-around;
 }
+
+.categories {
+    width: 23%;
+    min-height: 70vh;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.categories-list {
+    list-style-type: none;
+}
+
+.categories-list__item {
+    margin-bottom: 24px;
+}
+
+.categories-list__item_selected {
+    font-weight: 700;
+}
