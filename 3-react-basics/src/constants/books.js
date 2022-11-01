@@ -8,15 +8,21 @@ export const books = [
         cost: '625 ₽',
         stars: '5',
         reviews: [
-            'Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam voluptas fuga sapiente maxime obcaecati voluptate! Recusandae atque consequatur sint, ipsum architecto rerum sequi hic nam veritatis ratione et molestias distinctio porro placeat maiores dolore commodi quo illum, fugiat deleniti ex necessitatibus iure! Temporibus soluta sunt officia alias ipsa eos ad accusamus! Aspernatur dolores facere accusantium assumenda et nostrum similique reprehenderit, eaque nulla. Atque, consequatur earum. Voluptates facere illo iure neque debitis nam dolorum harum fugiat suscipit quidem consequatur cum perferendis sit.',
-
-            'Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam voluptas fuga sapiente maxime obcaecati voluptate! Recusandae atque consequatur sint, ipsum architecto rerum sequi hic nam veritatis ratione et molestias distinctio porro placeat maiores dolore commodi quo illum, fugiat deleniti ex necessitatibus iure! Omnis neque, magnam praesentium molestias dicta numquam harum. Est magni soluta, voluptates facere illo iure neque debitis nam dolorum harum fugiat suscipit quidem consequatur cum perferendis sit. Dolor in minus mollitia pariatur praesentium atque quod.',
-
-            'Recusandae atque consequatur sint, ipsum architecto rerum sequi hic nam veritatis ratione et molestias distinctio porro placeat maiores dolore commodi quo illum, fugiat deleniti ex necessitatibus iure! Temporibus soluta sunt officia alias ipsa eos ad accusamus! Aspernatur dolores facere, eaque nulla. Atque, consequatur earum. Omnis neque, magnam praesentium molestias dicta numquam harum. Est magni soluta, voluptates consequatur cum perferendis sit. Dolor in minus mollitia pariatur praesentium atque quod.',
-
-            'Temporibus soluta sunt officia alias ipsa eos ad accusamus! Aspernatur dolores facere accusantium assumenda et nostrum similique reprehenderit, eaque nulla. Atque, consequatur earum. Omnis neque, magnam praesentium molestias dicta numquam harum. Est magni soluta, voluptates facere illo iure neque debitis nam dolorum harum fugiat suscipit quidem consequatur cum perferendis sit. Dolor in minus mollitia pariatur praesentium atque quod.',
-
-            'Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam voluptas fuga sapiente maxime obcaecati voluptate! Recusandae atque consequatur sint, ipsum architecto rerum sequi hic nam veritatis ratione et molestias distinctio porro placeat maiores dolore commodi quo illum, fugiat deleniti ex necessitatibus iure! '
+            {
+                reviewer: 'Анна',
+                text: 'С книгами Маргариты Блиновой я познакомилась , начиная с гарпии. И с тех пор ожидаю от них юмора, юмора и еще раз юмора. Не важно, какой мир, не важно кто -герои, некроманты, или неизвестные науки расы, главное - обстоятельства, дружба и юмор. Все это, и даже с лишком, воплотилось в книжке "Несносное проклятье некроманта".',
+                stars: '4',
+            },
+            {
+                reviewer: 'Вика',
+                text: 'С книгами Маргариты Блиновой я познакомилась , начиная с гарпии. И с тех пор ожидаю от них юмора, юмора и еще раз юмора. Не важно, какой мир, не важно кто -герои, некроманты, или неизвестные науки расы, главное - обстоятельства, дружба и юмор. Все это, и даже с лишком, воплотилось в книжке "Несносное проклятье некроманта".',
+                stars: '3',
+            },
+            {
+                reviewer: 'Ксюша',
+                text: 'С книгами Маргариты Блиновой я познакомилась , начиная с гарпии. И с тех пор ожидаю от них юмора, юмора и еще раз юмора. Не важно, какой мир, не важно кто -герои, некроманты, или неизвестные науки расы, главное - обстоятельства, дружба и юмор. Все это, и даже с лишком, воплотилось в книжке "Несносное проклятье некроманта".',
+                stars: '5',
+            },
         ]
     },
 
@@ -29,15 +35,21 @@ export const books = [
         cost: '679 ₽',
         stars: '3',
         reviews: [
-            'Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam voluptas fuga sapiente maxime obcaecati voluptate! Recusandae atque consequatur sint, ipsum architecto rerum sequi hic nam veritatis ratione et molestias distinctio porro placeat maiores dolore commodi quo illum, fugiat deleniti ex necessitatibus iure! Temporibus soluta sunt officia alias ipsa eos ad accusamus! Aspernatur dolores facere accusantium assumenda et nostrum similique reprehenderit, eaque nulla. Atque, consequatur earum. Voluptates facere illo iure neque debitis nam dolorum harum fugiat suscipit quidem consequatur cum perferendis sit.',
-
-            'Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam voluptas fuga sapiente maxime obcaecati voluptate! Recusandae atque consequatur sint, ipsum architecto rerum sequi hic nam veritatis ratione et molestias distinctio porro placeat maiores dolore commodi quo illum, fugiat deleniti ex necessitatibus iure! Omnis neque, magnam praesentium molestias dicta numquam harum. Est magni soluta, voluptates facere illo iure neque debitis nam dolorum harum fugiat suscipit quidem consequatur cum perferendis sit. Dolor in minus mollitia pariatur praesentium atque quod.',
-
-            'Recusandae atque consequatur sint, ipsum architecto rerum sequi hic nam veritatis ratione et molestias distinctio porro placeat maiores dolore commodi quo illum, fugiat deleniti ex necessitatibus iure! Temporibus soluta sunt officia alias ipsa eos ad accusamus! Aspernatur dolores facere, eaque nulla. Atque, consequatur earum. Omnis neque, magnam praesentium molestias dicta numquam harum. Est magni soluta, voluptates consequatur cum perferendis sit. Dolor in minus mollitia pariatur praesentium atque quod.',
-
-            'Temporibus soluta sunt officia alias ipsa eos ad accusamus! Aspernatur dolores facere accusantium assumenda et nostrum similique reprehenderit, eaque nulla. Atque, consequatur earum. Omnis neque, magnam praesentium molestias dicta numquam harum. Est magni soluta, voluptates facere illo iure neque debitis nam dolorum harum fugiat suscipit quidem consequatur cum perferendis sit. Dolor in minus mollitia pariatur praesentium atque quod.',
-
-            'Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam voluptas fuga sapiente maxime obcaecati voluptate! Recusandae atque consequatur sint, ipsum architecto rerum sequi hic nam veritatis ratione et molestias distinctio porro placeat maiores dolore commodi quo illum, fugiat deleniti ex necessitatibus iure! '
+            {
+                reviewer: 'Анна',
+                text: 'С книгами Маргариты Блиновой я познакомилась , начиная с гарпии. И с тех пор ожидаю от них юмора, юмора и еще раз юмора. Не важно, какой мир, не важно кто -герои, некроманты, или неизвестные науки расы, главное - обстоятельства, дружба и юмор. Все это, и даже с лишком, воплотилось в книжке "Несносное проклятье некроманта".',
+                stars: '4',
+            },
+            {
+                reviewer: 'Вика',
+                text: 'С книгами Маргариты Блиновой я познакомилась , начиная с гарпии. И с тех пор ожидаю от них юмора, юмора и еще раз юмора. Не важно, какой мир, не важно кто -герои, некроманты, или неизвестные науки расы, главное - обстоятельства, дружба и юмор. Все это, и даже с лишком, воплотилось в книжке "Несносное проклятье некроманта".',
+                stars: '3',
+            },
+            {
+                reviewer: 'Ксюша',
+                text: 'С книгами Маргариты Блиновой я познакомилась , начиная с гарпии. И с тех пор ожидаю от них юмора, юмора и еще раз юмора. Не важно, какой мир, не важно кто -герои, некроманты, или неизвестные науки расы, главное - обстоятельства, дружба и юмор. Все это, и даже с лишком, воплотилось в книжке "Несносное проклятье некроманта".',
+                stars: '5',
+            },
         ]
     },
 
@@ -49,17 +61,22 @@ export const books = [
         category: 'Художественная литература',
         genre: 'Фантастика',
         stars: '4',
-
         reviews: [
-            'Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam voluptas fuga sapiente maxime obcaecati voluptate! Recusandae atque consequatur sint, ipsum architecto rerum sequi hic nam veritatis ratione et molestias distinctio porro placeat maiores dolore commodi quo illum, fugiat deleniti ex necessitatibus iure! Temporibus soluta sunt officia alias ipsa eos ad accusamus! Aspernatur dolores facere accusantium assumenda et nostrum similique reprehenderit, eaque nulla. Atque, consequatur earum. Voluptates facere illo iure neque debitis nam dolorum harum fugiat suscipit quidem consequatur cum perferendis sit.',
-
-            'Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam voluptas fuga sapiente maxime obcaecati voluptate! Recusandae atque consequatur sint, ipsum architecto rerum sequi hic nam veritatis ratione et molestias distinctio porro placeat maiores dolore commodi quo illum, fugiat deleniti ex necessitatibus iure! Omnis neque, magnam praesentium molestias dicta numquam harum. Est magni soluta, voluptates facere illo iure neque debitis nam dolorum harum fugiat suscipit quidem consequatur cum perferendis sit. Dolor in minus mollitia pariatur praesentium atque quod.',
-
-            'Recusandae atque consequatur sint, ipsum architecto rerum sequi hic nam veritatis ratione et molestias distinctio porro placeat maiores dolore commodi quo illum, fugiat deleniti ex necessitatibus iure! Temporibus soluta sunt officia alias ipsa eos ad accusamus! Aspernatur dolores facere, eaque nulla. Atque, consequatur earum. Omnis neque, magnam praesentium molestias dicta numquam harum. Est magni soluta, voluptates consequatur cum perferendis sit. Dolor in minus mollitia pariatur praesentium atque quod.',
-
-            'Temporibus soluta sunt officia alias ipsa eos ad accusamus! Aspernatur dolores facere accusantium assumenda et nostrum similique reprehenderit, eaque nulla. Atque, consequatur earum. Omnis neque, magnam praesentium molestias dicta numquam harum. Est magni soluta, voluptates facere illo iure neque debitis nam dolorum harum fugiat suscipit quidem consequatur cum perferendis sit. Dolor in minus mollitia pariatur praesentium atque quod.',
-
-            'Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam voluptas fuga sapiente maxime obcaecati voluptate! Recusandae atque consequatur sint, ipsum architecto rerum sequi hic nam veritatis ratione et molestias distinctio porro placeat maiores dolore commodi quo illum, fugiat deleniti ex necessitatibus iure! '
+            {
+                reviewer: 'Анна',
+                text: 'С книгами Маргариты Блиновой я познакомилась , начиная с гарпии. И с тех пор ожидаю от них юмора, юмора и еще раз юмора. Не важно, какой мир, не важно кто -герои, некроманты, или неизвестные науки расы, главное - обстоятельства, дружба и юмор. Все это, и даже с лишком, воплотилось в книжке "Несносное проклятье некроманта".',
+                stars: '4',
+            },
+            {
+                reviewer: 'Вика',
+                text: 'С книгами Маргариты Блиновой я познакомилась , начиная с гарпии. И с тех пор ожидаю от них юмора, юмора и еще раз юмора. Не важно, какой мир, не важно кто -герои, некроманты, или неизвестные науки расы, главное - обстоятельства, дружба и юмор. Все это, и даже с лишком, воплотилось в книжке "Несносное проклятье некроманта".',
+                stars: '3',
+            },
+            {
+                reviewer: 'Ксюша',
+                text: 'С книгами Маргариты Блиновой я познакомилась , начиная с гарпии. И с тех пор ожидаю от них юмора, юмора и еще раз юмора. Не важно, какой мир, не важно кто -герои, некроманты, или неизвестные науки расы, главное - обстоятельства, дружба и юмор. Все это, и даже с лишком, воплотилось в книжке "Несносное проклятье некроманта".',
+                stars: '5',
+            },
         ]
     },
 
@@ -72,15 +89,21 @@ export const books = [
         genre: 'Фантастика',
         stars: '4',
         reviews: [
-            'Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam voluptas fuga sapiente maxime obcaecati voluptate! Recusandae atque consequatur sint, ipsum architecto rerum sequi hic nam veritatis ratione et molestias distinctio porro placeat maiores dolore commodi quo illum, fugiat deleniti ex necessitatibus iure! Temporibus soluta sunt officia alias ipsa eos ad accusamus! Aspernatur dolores facere accusantium assumenda et nostrum similique reprehenderit, eaque nulla. Atque, consequatur earum. Voluptates facere illo iure neque debitis nam dolorum harum fugiat suscipit quidem consequatur cum perferendis sit.',
-
-            'Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam voluptas fuga sapiente maxime obcaecati voluptate! Recusandae atque consequatur sint, ipsum architecto rerum sequi hic nam veritatis ratione et molestias distinctio porro placeat maiores dolore commodi quo illum, fugiat deleniti ex necessitatibus iure! Omnis neque, magnam praesentium molestias dicta numquam harum. Est magni soluta, voluptates facere illo iure neque debitis nam dolorum harum fugiat suscipit quidem consequatur cum perferendis sit. Dolor in minus mollitia pariatur praesentium atque quod.',
-
-            'Recusandae atque consequatur sint, ipsum architecto rerum sequi hic nam veritatis ratione et molestias distinctio porro placeat maiores dolore commodi quo illum, fugiat deleniti ex necessitatibus iure! Temporibus soluta sunt officia alias ipsa eos ad accusamus! Aspernatur dolores facere, eaque nulla. Atque, consequatur earum. Omnis neque, magnam praesentium molestias dicta numquam harum. Est magni soluta, voluptates consequatur cum perferendis sit. Dolor in minus mollitia pariatur praesentium atque quod.',
-
-            'Temporibus soluta sunt officia alias ipsa eos ad accusamus! Aspernatur dolores facere accusantium assumenda et nostrum similique reprehenderit, eaque nulla. Atque, consequatur earum. Omnis neque, magnam praesentium molestias dicta numquam harum. Est magni soluta, voluptates facere illo iure neque debitis nam dolorum harum fugiat suscipit quidem consequatur cum perferendis sit. Dolor in minus mollitia pariatur praesentium atque quod.',
-
-            'Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam voluptas fuga sapiente maxime obcaecati voluptate! Recusandae atque consequatur sint, ipsum architecto rerum sequi hic nam veritatis ratione et molestias distinctio porro placeat maiores dolore commodi quo illum, fugiat deleniti ex necessitatibus iure! '
+            {
+                reviewer: 'Анна',
+                text: 'С книгами Маргариты Блиновой я познакомилась , начиная с гарпии. И с тех пор ожидаю от них юмора, юмора и еще раз юмора. Не важно, какой мир, не важно кто -герои, некроманты, или неизвестные науки расы, главное - обстоятельства, дружба и юмор. Все это, и даже с лишком, воплотилось в книжке "Несносное проклятье некроманта".',
+                stars: '4',
+            },
+            {
+                reviewer: 'Вика',
+                text: 'С книгами Маргариты Блиновой я познакомилась , начиная с гарпии. И с тех пор ожидаю от них юмора, юмора и еще раз юмора. Не важно, какой мир, не важно кто -герои, некроманты, или неизвестные науки расы, главное - обстоятельства, дружба и юмор. Все это, и даже с лишком, воплотилось в книжке "Несносное проклятье некроманта".',
+                stars: '3',
+            },
+            {
+                reviewer: 'Ксюша',
+                text: 'С книгами Маргариты Блиновой я познакомилась , начиная с гарпии. И с тех пор ожидаю от них юмора, юмора и еще раз юмора. Не важно, какой мир, не важно кто -герои, некроманты, или неизвестные науки расы, главное - обстоятельства, дружба и юмор. Все это, и даже с лишком, воплотилось в книжке "Несносное проклятье некроманта".',
+                stars: '5',
+            },
         ]
     },
 
@@ -93,15 +116,21 @@ export const books = [
         genre: 'Фантастика',
         stars: '5',
         reviews: [
-            'Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam voluptas fuga sapiente maxime obcaecati voluptate! Recusandae atque consequatur sint, ipsum architecto rerum sequi hic nam veritatis ratione et molestias distinctio porro placeat maiores dolore commodi quo illum, fugiat deleniti ex necessitatibus iure! Temporibus soluta sunt officia alias ipsa eos ad accusamus! Aspernatur dolores facere accusantium assumenda et nostrum similique reprehenderit, eaque nulla. Atque, consequatur earum. Voluptates facere illo iure neque debitis nam dolorum harum fugiat suscipit quidem consequatur cum perferendis sit.',
-
-            'Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam voluptas fuga sapiente maxime obcaecati voluptate! Recusandae atque consequatur sint, ipsum architecto rerum sequi hic nam veritatis ratione et molestias distinctio porro placeat maiores dolore commodi quo illum, fugiat deleniti ex necessitatibus iure! Omnis neque, magnam praesentium molestias dicta numquam harum. Est magni soluta, voluptates facere illo iure neque debitis nam dolorum harum fugiat suscipit quidem consequatur cum perferendis sit. Dolor in minus mollitia pariatur praesentium atque quod.',
-
-            'Recusandae atque consequatur sint, ipsum architecto rerum sequi hic nam veritatis ratione et molestias distinctio porro placeat maiores dolore commodi quo illum, fugiat deleniti ex necessitatibus iure! Temporibus soluta sunt officia alias ipsa eos ad accusamus! Aspernatur dolores facere, eaque nulla. Atque, consequatur earum. Omnis neque, magnam praesentium molestias dicta numquam harum. Est magni soluta, voluptates consequatur cum perferendis sit. Dolor in minus mollitia pariatur praesentium atque quod.',
-
-            'Temporibus soluta sunt officia alias ipsa eos ad accusamus! Aspernatur dolores facere accusantium assumenda et nostrum similique reprehenderit, eaque nulla. Atque, consequatur earum. Omnis neque, magnam praesentium molestias dicta numquam harum. Est magni soluta, voluptates facere illo iure neque debitis nam dolorum harum fugiat suscipit quidem consequatur cum perferendis sit. Dolor in minus mollitia pariatur praesentium atque quod.',
-
-            'Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam voluptas fuga sapiente maxime obcaecati voluptate! Recusandae atque consequatur sint, ipsum architecto rerum sequi hic nam veritatis ratione et molestias distinctio porro placeat maiores dolore commodi quo illum, fugiat deleniti ex necessitatibus iure! '
+            {
+                reviewer: 'Анна',
+                text: 'С книгами Маргариты Блиновой я познакомилась , начиная с гарпии. И с тех пор ожидаю от них юмора, юмора и еще раз юмора. Не важно, какой мир, не важно кто -герои, некроманты, или неизвестные науки расы, главное - обстоятельства, дружба и юмор. Все это, и даже с лишком, воплотилось в книжке "Несносное проклятье некроманта".',
+                stars: '4',
+            },
+            {
+                reviewer: 'Вика',
+                text: 'С книгами Маргариты Блиновой я познакомилась , начиная с гарпии. И с тех пор ожидаю от них юмора, юмора и еще раз юмора. Не важно, какой мир, не важно кто -герои, некроманты, или неизвестные науки расы, главное - обстоятельства, дружба и юмор. Все это, и даже с лишком, воплотилось в книжке "Несносное проклятье некроманта".',
+                stars: '3',
+            },
+            {
+                reviewer: 'Ксюша',
+                text: 'С книгами Маргариты Блиновой я познакомилась , начиная с гарпии. И с тех пор ожидаю от них юмора, юмора и еще раз юмора. Не важно, какой мир, не важно кто -герои, некроманты, или неизвестные науки расы, главное - обстоятельства, дружба и юмор. Все это, и даже с лишком, воплотилось в книжке "Несносное проклятье некроманта".',
+                stars: '5',
+            },
         ]
     },
 
@@ -114,15 +143,21 @@ export const books = [
         genre: 'Фантастика',
         stars: '4',
         reviews: [
-            'Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam voluptas fuga sapiente maxime obcaecati voluptate! Recusandae atque consequatur sint, ipsum architecto rerum sequi hic nam veritatis ratione et molestias distinctio porro placeat maiores dolore commodi quo illum, fugiat deleniti ex necessitatibus iure! Temporibus soluta sunt officia alias ipsa eos ad accusamus! Aspernatur dolores facere accusantium assumenda et nostrum similique reprehenderit, eaque nulla. Atque, consequatur earum. Voluptates facere illo iure neque debitis nam dolorum harum fugiat suscipit quidem consequatur cum perferendis sit.',
-
-            'Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam voluptas fuga sapiente maxime obcaecati voluptate! Recusandae atque consequatur sint, ipsum architecto rerum sequi hic nam veritatis ratione et molestias distinctio porro placeat maiores dolore commodi quo illum, fugiat deleniti ex necessitatibus iure! Omnis neque, magnam praesentium molestias dicta numquam harum. Est magni soluta, voluptates facere illo iure neque debitis nam dolorum harum fugiat suscipit quidem consequatur cum perferendis sit. Dolor in minus mollitia pariatur praesentium atque quod.',
-
-            'Recusandae atque consequatur sint, ipsum architecto rerum sequi hic nam veritatis ratione et molestias distinctio porro placeat maiores dolore commodi quo illum, fugiat deleniti ex necessitatibus iure! Temporibus soluta sunt officia alias ipsa eos ad accusamus! Aspernatur dolores facere, eaque nulla. Atque, consequatur earum. Omnis neque, magnam praesentium molestias dicta numquam harum. Est magni soluta, voluptates consequatur cum perferendis sit. Dolor in minus mollitia pariatur praesentium atque quod.',
-
-            'Temporibus soluta sunt officia alias ipsa eos ad accusamus! Aspernatur dolores facere accusantium assumenda et nostrum similique reprehenderit, eaque nulla. Atque, consequatur earum. Omnis neque, magnam praesentium molestias dicta numquam harum. Est magni soluta, voluptates facere illo iure neque debitis nam dolorum harum fugiat suscipit quidem consequatur cum perferendis sit. Dolor in minus mollitia pariatur praesentium atque quod.',
-
-            'Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam voluptas fuga sapiente maxime obcaecati voluptate! Recusandae atque consequatur sint, ipsum architecto rerum sequi hic nam veritatis ratione et molestias distinctio porro placeat maiores dolore commodi quo illum, fugiat deleniti ex necessitatibus iure! '
+            {
+                reviewer: 'Анна',
+                text: 'С книгами Маргариты Блиновой я познакомилась , начиная с гарпии. И с тех пор ожидаю от них юмора, юмора и еще раз юмора. Не важно, какой мир, не важно кто -герои, некроманты, или неизвестные науки расы, главное - обстоятельства, дружба и юмор. Все это, и даже с лишком, воплотилось в книжке "Несносное проклятье некроманта".',
+                stars: '4',
+            },
+            {
+                reviewer: 'Вика',
+                text: 'С книгами Маргариты Блиновой я познакомилась , начиная с гарпии. И с тех пор ожидаю от них юмора, юмора и еще раз юмора. Не важно, какой мир, не важно кто -герои, некроманты, или неизвестные науки расы, главное - обстоятельства, дружба и юмор. Все это, и даже с лишком, воплотилось в книжке "Несносное проклятье некроманта".',
+                stars: '3',
+            },
+            {
+                reviewer: 'Ксюша',
+                text: 'С книгами Маргариты Блиновой я познакомилась , начиная с гарпии. И с тех пор ожидаю от них юмора, юмора и еще раз юмора. Не важно, какой мир, не важно кто -герои, некроманты, или неизвестные науки расы, главное - обстоятельства, дружба и юмор. Все это, и даже с лишком, воплотилось в книжке "Несносное проклятье некроманта".',
+                stars: '5',
+            },
         ]
     },
 
@@ -135,15 +170,21 @@ export const books = [
         genre: 'Научная фантастика',
         stars: '5',
         reviews: [
-            'Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam voluptas fuga sapiente maxime obcaecati voluptate! Recusandae atque consequatur sint, ipsum architecto rerum sequi hic nam veritatis ratione et molestias distinctio porro placeat maiores dolore commodi quo illum, fugiat deleniti ex necessitatibus iure! Temporibus soluta sunt officia alias ipsa eos ad accusamus! Aspernatur dolores facere accusantium assumenda et nostrum similique reprehenderit, eaque nulla. Atque, consequatur earum. Voluptates facere illo iure neque debitis nam dolorum harum fugiat suscipit quidem consequatur cum perferendis sit.',
-
-            'Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam voluptas fuga sapiente maxime obcaecati voluptate! Recusandae atque consequatur sint, ipsum architecto rerum sequi hic nam veritatis ratione et molestias distinctio porro placeat maiores dolore commodi quo illum, fugiat deleniti ex necessitatibus iure! Omnis neque, magnam praesentium molestias dicta numquam harum. Est magni soluta, voluptates facere illo iure neque debitis nam dolorum harum fugiat suscipit quidem consequatur cum perferendis sit. Dolor in minus mollitia pariatur praesentium atque quod.',
-
-            'Recusandae atque consequatur sint, ipsum architecto rerum sequi hic nam veritatis ratione et molestias distinctio porro placeat maiores dolore commodi quo illum, fugiat deleniti ex necessitatibus iure! Temporibus soluta sunt officia alias ipsa eos ad accusamus! Aspernatur dolores facere, eaque nulla. Atque, consequatur earum. Omnis neque, magnam praesentium molestias dicta numquam harum. Est magni soluta, voluptates consequatur cum perferendis sit. Dolor in minus mollitia pariatur praesentium atque quod.',
-
-            'Temporibus soluta sunt officia alias ipsa eos ad accusamus! Aspernatur dolores facere accusantium assumenda et nostrum similique reprehenderit, eaque nulla. Atque, consequatur earum. Omnis neque, magnam praesentium molestias dicta numquam harum. Est magni soluta, voluptates facere illo iure neque debitis nam dolorum harum fugiat suscipit quidem consequatur cum perferendis sit. Dolor in minus mollitia pariatur praesentium atque quod.',
-
-            'Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam voluptas fuga sapiente maxime obcaecati voluptate! Recusandae atque consequatur sint, ipsum architecto rerum sequi hic nam veritatis ratione et molestias distinctio porro placeat maiores dolore commodi quo illum, fugiat deleniti ex necessitatibus iure! '
+            {
+                reviewer: 'Анна',
+                text: 'С книгами Маргариты Блиновой я познакомилась , начиная с гарпии. И с тех пор ожидаю от них юмора, юмора и еще раз юмора. Не важно, какой мир, не важно кто -герои, некроманты, или неизвестные науки расы, главное - обстоятельства, дружба и юмор. Все это, и даже с лишком, воплотилось в книжке "Несносное проклятье некроманта".',
+                stars: '4',
+            },
+            {
+                reviewer: 'Вика',
+                text: 'С книгами Маргариты Блиновой я познакомилась , начиная с гарпии. И с тех пор ожидаю от них юмора, юмора и еще раз юмора. Не важно, какой мир, не важно кто -герои, некроманты, или неизвестные науки расы, главное - обстоятельства, дружба и юмор. Все это, и даже с лишком, воплотилось в книжке "Несносное проклятье некроманта".',
+                stars: '3',
+            },
+            {
+                reviewer: 'Ксюша',
+                text: 'С книгами Маргариты Блиновой я познакомилась , начиная с гарпии. И с тех пор ожидаю от них юмора, юмора и еще раз юмора. Не важно, какой мир, не важно кто -герои, некроманты, или неизвестные науки расы, главное - обстоятельства, дружба и юмор. Все это, и даже с лишком, воплотилось в книжке "Несносное проклятье некроманта".',
+                stars: '5',
+            },
         ]
     },
 
@@ -156,15 +197,21 @@ export const books = [
         genre: 'Фантастика',
         stars: '5',
         reviews: [
-            'Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam voluptas fuga sapiente maxime obcaecati voluptate! Recusandae atque consequatur sint, ipsum architecto rerum sequi hic nam veritatis ratione et molestias distinctio porro placeat maiores dolore commodi quo illum, fugiat deleniti ex necessitatibus iure! Temporibus soluta sunt officia alias ipsa eos ad accusamus! Aspernatur dolores facere accusantium assumenda et nostrum similique reprehenderit, eaque nulla. Atque, consequatur earum. Voluptates facere illo iure neque debitis nam dolorum harum fugiat suscipit quidem consequatur cum perferendis sit.',
-
-            'Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam voluptas fuga sapiente maxime obcaecati voluptate! Recusandae atque consequatur sint, ipsum architecto rerum sequi hic nam veritatis ratione et molestias distinctio porro placeat maiores dolore commodi quo illum, fugiat deleniti ex necessitatibus iure! Omnis neque, magnam praesentium molestias dicta numquam harum. Est magni soluta, voluptates facere illo iure neque debitis nam dolorum harum fugiat suscipit quidem consequatur cum perferendis sit. Dolor in minus mollitia pariatur praesentium atque quod.',
-
-            'Recusandae atque consequatur sint, ipsum architecto rerum sequi hic nam veritatis ratione et molestias distinctio porro placeat maiores dolore commodi quo illum, fugiat deleniti ex necessitatibus iure! Temporibus soluta sunt officia alias ipsa eos ad accusamus! Aspernatur dolores facere, eaque nulla. Atque, consequatur earum. Omnis neque, magnam praesentium molestias dicta numquam harum. Est magni soluta, voluptates consequatur cum perferendis sit. Dolor in minus mollitia pariatur praesentium atque quod.',
-
-            'Temporibus soluta sunt officia alias ipsa eos ad accusamus! Aspernatur dolores facere accusantium assumenda et nostrum similique reprehenderit, eaque nulla. Atque, consequatur earum. Omnis neque, magnam praesentium molestias dicta numquam harum. Est magni soluta, voluptates facere illo iure neque debitis nam dolorum harum fugiat suscipit quidem consequatur cum perferendis sit. Dolor in minus mollitia pariatur praesentium atque quod.',
-
-            'Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam voluptas fuga sapiente maxime obcaecati voluptate! Recusandae atque consequatur sint, ipsum architecto rerum sequi hic nam veritatis ratione et molestias distinctio porro placeat maiores dolore commodi quo illum, fugiat deleniti ex necessitatibus iure! '
+            {
+                reviewer: 'Анна',
+                text: 'С книгами Маргариты Блиновой я познакомилась , начиная с гарпии. И с тех пор ожидаю от них юмора, юмора и еще раз юмора. Не важно, какой мир, не важно кто -герои, некроманты, или неизвестные науки расы, главное - обстоятельства, дружба и юмор. Все это, и даже с лишком, воплотилось в книжке "Несносное проклятье некроманта".',
+                stars: '4',
+            },
+            {
+                reviewer: 'Вика',
+                text: 'С книгами Маргариты Блиновой я познакомилась , начиная с гарпии. И с тех пор ожидаю от них юмора, юмора и еще раз юмора. Не важно, какой мир, не важно кто -герои, некроманты, или неизвестные науки расы, главное - обстоятельства, дружба и юмор. Все это, и даже с лишком, воплотилось в книжке "Несносное проклятье некроманта".',
+                stars: '3',
+            },
+            {
+                reviewer: 'Ксюша',
+                text: 'С книгами Маргариты Блиновой я познакомилась , начиная с гарпии. И с тех пор ожидаю от них юмора, юмора и еще раз юмора. Не важно, какой мир, не важно кто -герои, некроманты, или неизвестные науки расы, главное - обстоятельства, дружба и юмор. Все это, и даже с лишком, воплотилось в книжке "Несносное проклятье некроманта".',
+                stars: '5',
+            },
         ]
     },
 
@@ -177,15 +224,21 @@ export const books = [
         genre: 'Фантастика',
         stars: '5',
         reviews: [
-            'Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam voluptas fuga sapiente maxime obcaecati voluptate! Recusandae atque consequatur sint, ipsum architecto rerum sequi hic nam veritatis ratione et molestias distinctio porro placeat maiores dolore commodi quo illum, fugiat deleniti ex necessitatibus iure! Temporibus soluta sunt officia alias ipsa eos ad accusamus! Aspernatur dolores facere accusantium assumenda et nostrum similique reprehenderit, eaque nulla. Atque, consequatur earum. Voluptates facere illo iure neque debitis nam dolorum harum fugiat suscipit quidem consequatur cum perferendis sit.',
-
-            'Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam voluptas fuga sapiente maxime obcaecati voluptate! Recusandae atque consequatur sint, ipsum architecto rerum sequi hic nam veritatis ratione et molestias distinctio porro placeat maiores dolore commodi quo illum, fugiat deleniti ex necessitatibus iure! Omnis neque, magnam praesentium molestias dicta numquam harum. Est magni soluta, voluptates facere illo iure neque debitis nam dolorum harum fugiat suscipit quidem consequatur cum perferendis sit. Dolor in minus mollitia pariatur praesentium atque quod.',
-
-            'Recusandae atque consequatur sint, ipsum architecto rerum sequi hic nam veritatis ratione et molestias distinctio porro placeat maiores dolore commodi quo illum, fugiat deleniti ex necessitatibus iure! Temporibus soluta sunt officia alias ipsa eos ad accusamus! Aspernatur dolores facere, eaque nulla. Atque, consequatur earum. Omnis neque, magnam praesentium molestias dicta numquam harum. Est magni soluta, voluptates consequatur cum perferendis sit. Dolor in minus mollitia pariatur praesentium atque quod.',
-
-            'Temporibus soluta sunt officia alias ipsa eos ad accusamus! Aspernatur dolores facere accusantium assumenda et nostrum similique reprehenderit, eaque nulla. Atque, consequatur earum. Omnis neque, magnam praesentium molestias dicta numquam harum. Est magni soluta, voluptates facere illo iure neque debitis nam dolorum harum fugiat suscipit quidem consequatur cum perferendis sit. Dolor in minus mollitia pariatur praesentium atque quod.',
-
-            'Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam voluptas fuga sapiente maxime obcaecati voluptate! Recusandae atque consequatur sint, ipsum architecto rerum sequi hic nam veritatis ratione et molestias distinctio porro placeat maiores dolore commodi quo illum, fugiat deleniti ex necessitatibus iure! '
+            {
+                reviewer: 'Анна',
+                text: 'С книгами Маргариты Блиновой я познакомилась , начиная с гарпии. И с тех пор ожидаю от них юмора, юмора и еще раз юмора. Не важно, какой мир, не важно кто -герои, некроманты, или неизвестные науки расы, главное - обстоятельства, дружба и юмор. Все это, и даже с лишком, воплотилось в книжке "Несносное проклятье некроманта".',
+                stars: '4',
+            },
+            {
+                reviewer: 'Вика',
+                text: 'С книгами Маргариты Блиновой я познакомилась , начиная с гарпии. И с тех пор ожидаю от них юмора, юмора и еще раз юмора. Не важно, какой мир, не важно кто -герои, некроманты, или неизвестные науки расы, главное - обстоятельства, дружба и юмор. Все это, и даже с лишком, воплотилось в книжке "Несносное проклятье некроманта".',
+                stars: '3',
+            },
+            {
+                reviewer: 'Ксюша',
+                text: 'С книгами Маргариты Блиновой я познакомилась , начиная с гарпии. И с тех пор ожидаю от них юмора, юмора и еще раз юмора. Не важно, какой мир, не важно кто -герои, некроманты, или неизвестные науки расы, главное - обстоятельства, дружба и юмор. Все это, и даже с лишком, воплотилось в книжке "Несносное проклятье некроманта".',
+                stars: '5',
+            },
         ]
     },
 
@@ -198,15 +251,21 @@ export const books = [
         genre: 'Литература по саморазвитию',
         stars: '3',
         reviews: [
-            'Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam voluptas fuga sapiente maxime obcaecati voluptate! Recusandae atque consequatur sint, ipsum architecto rerum sequi hic nam veritatis ratione et molestias distinctio porro placeat maiores dolore commodi quo illum, fugiat deleniti ex necessitatibus iure! Temporibus soluta sunt officia alias ipsa eos ad accusamus! Aspernatur dolores facere accusantium assumenda et nostrum similique reprehenderit, eaque nulla. Atque, consequatur earum. Voluptates facere illo iure neque debitis nam dolorum harum fugiat suscipit quidem consequatur cum perferendis sit.',
-
-            'Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam voluptas fuga sapiente maxime obcaecati voluptate! Recusandae atque consequatur sint, ipsum architecto rerum sequi hic nam veritatis ratione et molestias distinctio porro placeat maiores dolore commodi quo illum, fugiat deleniti ex necessitatibus iure! Omnis neque, magnam praesentium molestias dicta numquam harum. Est magni soluta, voluptates facere illo iure neque debitis nam dolorum harum fugiat suscipit quidem consequatur cum perferendis sit. Dolor in minus mollitia pariatur praesentium atque quod.',
-
-            'Recusandae atque consequatur sint, ipsum architecto rerum sequi hic nam veritatis ratione et molestias distinctio porro placeat maiores dolore commodi quo illum, fugiat deleniti ex necessitatibus iure! Temporibus soluta sunt officia alias ipsa eos ad accusamus! Aspernatur dolores facere, eaque nulla. Atque, consequatur earum. Omnis neque, magnam praesentium molestias dicta numquam harum. Est magni soluta, voluptates consequatur cum perferendis sit. Dolor in minus mollitia pariatur praesentium atque quod.',
-
-            'Temporibus soluta sunt officia alias ipsa eos ad accusamus! Aspernatur dolores facere accusantium assumenda et nostrum similique reprehenderit, eaque nulla. Atque, consequatur earum. Omnis neque, magnam praesentium molestias dicta numquam harum. Est magni soluta, voluptates facere illo iure neque debitis nam dolorum harum fugiat suscipit quidem consequatur cum perferendis sit. Dolor in minus mollitia pariatur praesentium atque quod.',
-
-            'Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam voluptas fuga sapiente maxime obcaecati voluptate! Recusandae atque consequatur sint, ipsum architecto rerum sequi hic nam veritatis ratione et molestias distinctio porro placeat maiores dolore commodi quo illum, fugiat deleniti ex necessitatibus iure! '
+            {
+                reviewer: 'Анна',
+                text: 'С книгами Маргариты Блиновой я познакомилась , начиная с гарпии. И с тех пор ожидаю от них юмора, юмора и еще раз юмора. Не важно, какой мир, не важно кто -герои, некроманты, или неизвестные науки расы, главное - обстоятельства, дружба и юмор. Все это, и даже с лишком, воплотилось в книжке "Несносное проклятье некроманта".',
+                stars: '4',
+            },
+            {
+                reviewer: 'Вика',
+                text: 'С книгами Маргариты Блиновой я познакомилась , начиная с гарпии. И с тех пор ожидаю от них юмора, юмора и еще раз юмора. Не важно, какой мир, не важно кто -герои, некроманты, или неизвестные науки расы, главное - обстоятельства, дружба и юмор. Все это, и даже с лишком, воплотилось в книжке "Несносное проклятье некроманта".',
+                stars: '3',
+            },
+            {
+                reviewer: 'Ксюша',
+                text: 'С книгами Маргариты Блиновой я познакомилась , начиная с гарпии. И с тех пор ожидаю от них юмора, юмора и еще раз юмора. Не важно, какой мир, не важно кто -герои, некроманты, или неизвестные науки расы, главное - обстоятельства, дружба и юмор. Все это, и даже с лишком, воплотилось в книжке "Несносное проклятье некроманта".',
+                stars: '5',
+            },
         ]
     },
 
@@ -219,15 +278,21 @@ export const books = [
         genre: 'Религия',
         stars: '5',
         reviews: [
-            'Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam voluptas fuga sapiente maxime obcaecati voluptate! Recusandae atque consequatur sint, ipsum architecto rerum sequi hic nam veritatis ratione et molestias distinctio porro placeat maiores dolore commodi quo illum, fugiat deleniti ex necessitatibus iure! Temporibus soluta sunt officia alias ipsa eos ad accusamus! Aspernatur dolores facere accusantium assumenda et nostrum similique reprehenderit, eaque nulla. Atque, consequatur earum. Voluptates facere illo iure neque debitis nam dolorum harum fugiat suscipit quidem consequatur cum perferendis sit.',
-
-            'Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam voluptas fuga sapiente maxime obcaecati voluptate! Recusandae atque consequatur sint, ipsum architecto rerum sequi hic nam veritatis ratione et molestias distinctio porro placeat maiores dolore commodi quo illum, fugiat deleniti ex necessitatibus iure! Omnis neque, magnam praesentium molestias dicta numquam harum. Est magni soluta, voluptates facere illo iure neque debitis nam dolorum harum fugiat suscipit quidem consequatur cum perferendis sit. Dolor in minus mollitia pariatur praesentium atque quod.',
-
-            'Recusandae atque consequatur sint, ipsum architecto rerum sequi hic nam veritatis ratione et molestias distinctio porro placeat maiores dolore commodi quo illum, fugiat deleniti ex necessitatibus iure! Temporibus soluta sunt officia alias ipsa eos ad accusamus! Aspernatur dolores facere, eaque nulla. Atque, consequatur earum. Omnis neque, magnam praesentium molestias dicta numquam harum. Est magni soluta, voluptates consequatur cum perferendis sit. Dolor in minus mollitia pariatur praesentium atque quod.',
-
-            'Temporibus soluta sunt officia alias ipsa eos ad accusamus! Aspernatur dolores facere accusantium assumenda et nostrum similique reprehenderit, eaque nulla. Atque, consequatur earum. Omnis neque, magnam praesentium molestias dicta numquam harum. Est magni soluta, voluptates facere illo iure neque debitis nam dolorum harum fugiat suscipit quidem consequatur cum perferendis sit. Dolor in minus mollitia pariatur praesentium atque quod.',
-
-            'Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam voluptas fuga sapiente maxime obcaecati voluptate! Recusandae atque consequatur sint, ipsum architecto rerum sequi hic nam veritatis ratione et molestias distinctio porro placeat maiores dolore commodi quo illum, fugiat deleniti ex necessitatibus iure! '
+            {
+                reviewer: 'Анна',
+                text: 'С книгами Маргариты Блиновой я познакомилась , начиная с гарпии. И с тех пор ожидаю от них юмора, юмора и еще раз юмора. Не важно, какой мир, не важно кто -герои, некроманты, или неизвестные науки расы, главное - обстоятельства, дружба и юмор. Все это, и даже с лишком, воплотилось в книжке "Несносное проклятье некроманта".',
+                stars: '4',
+            },
+            {
+                reviewer: 'Вика',
+                text: 'С книгами Маргариты Блиновой я познакомилась , начиная с гарпии. И с тех пор ожидаю от них юмора, юмора и еще раз юмора. Не важно, какой мир, не важно кто -герои, некроманты, или неизвестные науки расы, главное - обстоятельства, дружба и юмор. Все это, и даже с лишком, воплотилось в книжке "Несносное проклятье некроманта".',
+                stars: '3',
+            },
+            {
+                reviewer: 'Ксюша',
+                text: 'С книгами Маргариты Блиновой я познакомилась , начиная с гарпии. И с тех пор ожидаю от них юмора, юмора и еще раз юмора. Не важно, какой мир, не важно кто -герои, некроманты, или неизвестные науки расы, главное - обстоятельства, дружба и юмор. Все это, и даже с лишком, воплотилось в книжке "Несносное проклятье некроманта".',
+                stars: '5',
+            },
         ]
     },
 
@@ -240,15 +305,21 @@ export const books = [
         genre: 'Книги про детей',
         stars: '5',
         reviews: [
-            'Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam voluptas fuga sapiente maxime obcaecati voluptate! Recusandae atque consequatur sint, ipsum architecto rerum sequi hic nam veritatis ratione et molestias distinctio porro placeat maiores dolore commodi quo illum, fugiat deleniti ex necessitatibus iure! Temporibus soluta sunt officia alias ipsa eos ad accusamus! Aspernatur dolores facere accusantium assumenda et nostrum similique reprehenderit, eaque nulla. Atque, consequatur earum. Voluptates facere illo iure neque debitis nam dolorum harum fugiat suscipit quidem consequatur cum perferendis sit.',
-
-            'Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam voluptas fuga sapiente maxime obcaecati voluptate! Recusandae atque consequatur sint, ipsum architecto rerum sequi hic nam veritatis ratione et molestias distinctio porro placeat maiores dolore commodi quo illum, fugiat deleniti ex necessitatibus iure! Omnis neque, magnam praesentium molestias dicta numquam harum. Est magni soluta, voluptates facere illo iure neque debitis nam dolorum harum fugiat suscipit quidem consequatur cum perferendis sit. Dolor in minus mollitia pariatur praesentium atque quod.',
-
-            'Recusandae atque consequatur sint, ipsum architecto rerum sequi hic nam veritatis ratione et molestias distinctio porro placeat maiores dolore commodi quo illum, fugiat deleniti ex necessitatibus iure! Temporibus soluta sunt officia alias ipsa eos ad accusamus! Aspernatur dolores facere, eaque nulla. Atque, consequatur earum. Omnis neque, magnam praesentium molestias dicta numquam harum. Est magni soluta, voluptates consequatur cum perferendis sit. Dolor in minus mollitia pariatur praesentium atque quod.',
-
-            'Temporibus soluta sunt officia alias ipsa eos ad accusamus! Aspernatur dolores facere accusantium assumenda et nostrum similique reprehenderit, eaque nulla. Atque, consequatur earum. Omnis neque, magnam praesentium molestias dicta numquam harum. Est magni soluta, voluptates facere illo iure neque debitis nam dolorum harum fugiat suscipit quidem consequatur cum perferendis sit. Dolor in minus mollitia pariatur praesentium atque quod.',
-
-            'Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam voluptas fuga sapiente maxime obcaecati voluptate! Recusandae atque consequatur sint, ipsum architecto rerum sequi hic nam veritatis ratione et molestias distinctio porro placeat maiores dolore commodi quo illum, fugiat deleniti ex necessitatibus iure! '
+            {
+                reviewer: 'Анна',
+                text: 'С книгами Маргариты Блиновой я познакомилась , начиная с гарпии. И с тех пор ожидаю от них юмора, юмора и еще раз юмора. Не важно, какой мир, не важно кто -герои, некроманты, или неизвестные науки расы, главное - обстоятельства, дружба и юмор. Все это, и даже с лишком, воплотилось в книжке "Несносное проклятье некроманта".',
+                stars: '4',
+            },
+            {
+                reviewer: 'Вика',
+                text: 'С книгами Маргариты Блиновой я познакомилась , начиная с гарпии. И с тех пор ожидаю от них юмора, юмора и еще раз юмора. Не важно, какой мир, не важно кто -герои, некроманты, или неизвестные науки расы, главное - обстоятельства, дружба и юмор. Все это, и даже с лишком, воплотилось в книжке "Несносное проклятье некроманта".',
+                stars: '3',
+            },
+            {
+                reviewer: 'Ксюша',
+                text: 'С книгами Маргариты Блиновой я познакомилась , начиная с гарпии. И с тех пор ожидаю от них юмора, юмора и еще раз юмора. Не важно, какой мир, не важно кто -герои, некроманты, или неизвестные науки расы, главное - обстоятельства, дружба и юмор. Все это, и даже с лишком, воплотилось в книжке "Несносное проклятье некроманта".',
+                stars: '5',
+            },
         ]
     },
 
@@ -261,15 +332,21 @@ export const books = [
         genre: 'Газеты',
         stars: '4',
         reviews: [
-            'Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam voluptas fuga sapiente maxime obcaecati voluptate! Recusandae atque consequatur sint, ipsum architecto rerum sequi hic nam veritatis ratione et molestias distinctio porro placeat maiores dolore commodi quo illum, fugiat deleniti ex necessitatibus iure! Temporibus soluta sunt officia alias ipsa eos ad accusamus! Aspernatur dolores facere accusantium assumenda et nostrum similique reprehenderit, eaque nulla. Atque, consequatur earum. Voluptates facere illo iure neque debitis nam dolorum harum fugiat suscipit quidem consequatur cum perferendis sit.',
-
-            'Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam voluptas fuga sapiente maxime obcaecati voluptate! Recusandae atque consequatur sint, ipsum architecto rerum sequi hic nam veritatis ratione et molestias distinctio porro placeat maiores dolore commodi quo illum, fugiat deleniti ex necessitatibus iure! Omnis neque, magnam praesentium molestias dicta numquam harum. Est magni soluta, voluptates facere illo iure neque debitis nam dolorum harum fugiat suscipit quidem consequatur cum perferendis sit. Dolor in minus mollitia pariatur praesentium atque quod.',
-
-            'Recusandae atque consequatur sint, ipsum architecto rerum sequi hic nam veritatis ratione et molestias distinctio porro placeat maiores dolore commodi quo illum, fugiat deleniti ex necessitatibus iure! Temporibus soluta sunt officia alias ipsa eos ad accusamus! Aspernatur dolores facere, eaque nulla. Atque, consequatur earum. Omnis neque, magnam praesentium molestias dicta numquam harum. Est magni soluta, voluptates consequatur cum perferendis sit. Dolor in minus mollitia pariatur praesentium atque quod.',
-
-            'Temporibus soluta sunt officia alias ipsa eos ad accusamus! Aspernatur dolores facere accusantium assumenda et nostrum similique reprehenderit, eaque nulla. Atque, consequatur earum. Omnis neque, magnam praesentium molestias dicta numquam harum. Est magni soluta, voluptates facere illo iure neque debitis nam dolorum harum fugiat suscipit quidem consequatur cum perferendis sit. Dolor in minus mollitia pariatur praesentium atque quod.',
-
-            'Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam voluptas fuga sapiente maxime obcaecati voluptate! Recusandae atque consequatur sint, ipsum architecto rerum sequi hic nam veritatis ratione et molestias distinctio porro placeat maiores dolore commodi quo illum, fugiat deleniti ex necessitatibus iure! '
+            {
+                reviewer: 'Анна',
+                text: 'С книгами Маргариты Блиновой я познакомилась , начиная с гарпии. И с тех пор ожидаю от них юмора, юмора и еще раз юмора. Не важно, какой мир, не важно кто -герои, некроманты, или неизвестные науки расы, главное - обстоятельства, дружба и юмор. Все это, и даже с лишком, воплотилось в книжке "Несносное проклятье некроманта".',
+                stars: '4',
+            },
+            {
+                reviewer: 'Вика',
+                text: 'С книгами Маргариты Блиновой я познакомилась , начиная с гарпии. И с тех пор ожидаю от них юмора, юмора и еще раз юмора. Не важно, какой мир, не важно кто -герои, некроманты, или неизвестные науки расы, главное - обстоятельства, дружба и юмор. Все это, и даже с лишком, воплотилось в книжке "Несносное проклятье некроманта".',
+                stars: '3',
+            },
+            {
+                reviewer: 'Ксюша',
+                text: 'С книгами Маргариты Блиновой я познакомилась , начиная с гарпии. И с тех пор ожидаю от них юмора, юмора и еще раз юмора. Не важно, какой мир, не важно кто -герои, некроманты, или неизвестные науки расы, главное - обстоятельства, дружба и юмор. Все это, и даже с лишком, воплотилось в книжке "Несносное проклятье некроманта".',
+                stars: '5',
+            },
         ]
     },
 
@@ -282,15 +359,21 @@ export const books = [
         genre: 'Газеты',
         stars: '5',
         reviews: [
-            'Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam voluptas fuga sapiente maxime obcaecati voluptate! Recusandae atque consequatur sint, ipsum architecto rerum sequi hic nam veritatis ratione et molestias distinctio porro placeat maiores dolore commodi quo illum, fugiat deleniti ex necessitatibus iure! Temporibus soluta sunt officia alias ipsa eos ad accusamus! Aspernatur dolores facere accusantium assumenda et nostrum similique reprehenderit, eaque nulla. Atque, consequatur earum. Voluptates facere illo iure neque debitis nam dolorum harum fugiat suscipit quidem consequatur cum perferendis sit.',
-
-            'Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam voluptas fuga sapiente maxime obcaecati voluptate! Recusandae atque consequatur sint, ipsum architecto rerum sequi hic nam veritatis ratione et molestias distinctio porro placeat maiores dolore commodi quo illum, fugiat deleniti ex necessitatibus iure! Omnis neque, magnam praesentium molestias dicta numquam harum. Est magni soluta, voluptates facere illo iure neque debitis nam dolorum harum fugiat suscipit quidem consequatur cum perferendis sit. Dolor in minus mollitia pariatur praesentium atque quod.',
-
-            'Recusandae atque consequatur sint, ipsum architecto rerum sequi hic nam veritatis ratione et molestias distinctio porro placeat maiores dolore commodi quo illum, fugiat deleniti ex necessitatibus iure! Temporibus soluta sunt officia alias ipsa eos ad accusamus! Aspernatur dolores facere, eaque nulla. Atque, consequatur earum. Omnis neque, magnam praesentium molestias dicta numquam harum. Est magni soluta, voluptates consequatur cum perferendis sit. Dolor in minus mollitia pariatur praesentium atque quod.',
-
-            'Temporibus soluta sunt officia alias ipsa eos ad accusamus! Aspernatur dolores facere accusantium assumenda et nostrum similique reprehenderit, eaque nulla. Atque, consequatur earum. Omnis neque, magnam praesentium molestias dicta numquam harum. Est magni soluta, voluptates facere illo iure neque debitis nam dolorum harum fugiat suscipit quidem consequatur cum perferendis sit. Dolor in minus mollitia pariatur praesentium atque quod.',
-
-            'Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam voluptas fuga sapiente maxime obcaecati voluptate! Recusandae atque consequatur sint, ipsum architecto rerum sequi hic nam veritatis ratione et molestias distinctio porro placeat maiores dolore commodi quo illum, fugiat deleniti ex necessitatibus iure! '
+            {
+                reviewer: 'Анна',
+                text: 'С книгами Маргариты Блиновой я познакомилась , начиная с гарпии. И с тех пор ожидаю от них юмора, юмора и еще раз юмора. Не важно, какой мир, не важно кто -герои, некроманты, или неизвестные науки расы, главное - обстоятельства, дружба и юмор. Все это, и даже с лишком, воплотилось в книжке "Несносное проклятье некроманта".',
+                stars: '4',
+            },
+            {
+                reviewer: 'Вика',
+                text: 'С книгами Маргариты Блиновой я познакомилась , начиная с гарпии. И с тех пор ожидаю от них юмора, юмора и еще раз юмора. Не важно, какой мир, не важно кто -герои, некроманты, или неизвестные науки расы, главное - обстоятельства, дружба и юмор. Все это, и даже с лишком, воплотилось в книжке "Несносное проклятье некроманта".',
+                stars: '3',
+            },
+            {
+                reviewer: 'Ксюша',
+                text: 'С книгами Маргариты Блиновой я познакомилась , начиная с гарпии. И с тех пор ожидаю от них юмора, юмора и еще раз юмора. Не важно, какой мир, не важно кто -герои, некроманты, или неизвестные науки расы, главное - обстоятельства, дружба и юмор. Все это, и даже с лишком, воплотилось в книжке "Несносное проклятье некроманта".',
+                stars: '5',
+            },
         ]
     }
 ]

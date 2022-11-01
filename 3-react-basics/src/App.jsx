@@ -7,6 +7,7 @@ import { categories } from './constants/categories';
 
 export const App = () => {
     return <Layout>
-        <BooksPage books={books} categories={categories}></BooksPage>
+        {/* <BooksPage books={books} categories={categories}></BooksPage> */}
+        <BookPage book={books[0]}></BookPage>
     </Layout>
 }
