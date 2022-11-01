@@ -1,0 +1,21 @@
+.book-page {
+    width: 100%;
+    min-height: calc(100vh - 70px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 70px;
+}
+
+.book-page__info {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 70px;
+}
+
+.book-wrapper,
+.annotation-wrapper {
+    width: 45%;
+}
+
