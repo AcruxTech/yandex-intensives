@@ -1,0 +1,46 @@
+.book-counter {
+    width: 150px;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.book-counter__minus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    background: #000;
+    border: none;
+    cursor: pointer;
+    user-select: none;
+    border-radius: 8px;
+}
+
+.book-counter__plus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    background: #000;
+    border: none;
+    cursor: pointer;
+    user-select: none;
+    border-radius: 8px;
+}
+
+.book-counter__count {
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+}
+
+:disabled {
+    cursor: not-allowed;
+    background: rgba(0, 0, 0, 0.5);
+}

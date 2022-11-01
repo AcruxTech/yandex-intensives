@@ -1,3 +1,4 @@
+import './Books.css'
 import { Book } from '../../components/Book/Book' 
 
  
@@ -9,9 +10,8 @@ export const Books = ({ books, active}) => {
             books_by_categoty.push(book)
         }
     });
-    console.log(books_by_categoty)
 
-    return <div>
+    return <div className='books'>
         {
             books_by_categoty.map((book, i) => <Book key={i} book={book}></Book>)
         }

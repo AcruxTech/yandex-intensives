@@ -2,13 +2,13 @@
     width: 100%;
     min-height: calc(100vh - 70px);
     display: flex;
-    align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    padding-top: 70px;
 }
 
 .categories {
-    width: 23%;
-    min-height: 70vh;
+    width: 20%;
+    height: calc(100vh - 210px);
     background-color: #fff;
     border-radius: 8px;
     padding: 20px;
