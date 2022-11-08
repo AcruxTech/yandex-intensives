@@ -1,9 +1,9 @@
 import { combineReducers, configureStore } from "@reduxjs/toolkit";
-// import { cinemaSlice } from "./cinema";
+import { bookSlice } from "./book";
 
 export const store = configureStore({
     reducer: combineReducers({
-        // cinema: cinemaSlice.reducer,
+        book: bookSlice.reducer,
     }),
     middleware: (getDefaultMiddleware) => getDefaultMiddleware(),
 });

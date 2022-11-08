@@ -276,9 +276,20 @@ const normalizedUsers = [
   },
 ]
 
+const normalizedCategories = [
+  'Художественная литература',
+  'Нехудожественная литература',
+  'Книги для детей',
+  'Периодические издания',
+  'Религия',
+  'Учебная литература',
+  'Комиксы',
+]
+
 
 module.exports = {
   books: normalizedBooks,
   reviews: normalizedReviews,
   users: normalizedUsers,
+  categories: normalizedCategories,
 };

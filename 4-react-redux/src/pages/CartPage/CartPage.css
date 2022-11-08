@@ -1,0 +1,27 @@
+.cart-page {
+    width: 100%;
+    min-height: calc(100vh - 70px);
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 70px;
+}
+
+.cart-page__order {
+    width: 30%;
+    min-height: calc(100vh - 210px);
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.cart-page__order-list {
+    list-style-type: none;
+}
+
+.cart-page__order-list__item {
+    margin-bottom: 24px;
+}
+
+.cart-page__books {
+    width: 60%;
+}

@@ -7,6 +7,7 @@ import { categories } from './constants/categories';
 import { Provider } from "react-redux";
 import { store } from "./store";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { CartPage } from './pages/CartPage/CartPage';
 
 
 
@@ -14,8 +15,9 @@ export const App = () => {
     return (
         <Provider store={store}>
             <Layout>
-                <BooksPage books={books} categories={categories}></BooksPage>
+                {/* <BooksPage categories={categories}></BooksPage> */}
                 {/* <BookPage book={books[0]}></BookPage> */}
+                <CartPage books={books}></CartPage>
             </Layout>
         </Provider>
     )

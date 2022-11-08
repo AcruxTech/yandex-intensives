@@ -1,10 +1,20 @@
 import './BooksPage.css'
 import { Books } from '../../components/Books/Books' 
-import { useState } from 'react'
+import { useDispatch, useSelector } from "react-redux";
+import { selectBooks } from "../../store/book/selectors";
+import { useEffect, useState } from 'react';
+import { loadBooksIfNotExist } from '../../store/book/loadBooksIfNotExist';
 
  
-export const BooksPage = ({ books, categories }) => {
+export const BooksPage = ({ categories }) => {
     const [active, setActive] = useState(categories[0])
+
+    const dispatch = useDispatch();
+    const books = useSelector((state) => selectBooks(state));
+  
+    useEffect(() => {
+        dispatch(loadBooksIfNotExist);
+    }, []);
 
     return <div className='books-page'>
         <div className='categories'>
