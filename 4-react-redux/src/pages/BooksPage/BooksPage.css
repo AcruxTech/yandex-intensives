@@ -1,0 +1,27 @@
+.books-page {
+    width: 100%;
+    min-height: calc(100vh - 70px);
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 70px;
+}
+
+.categories {
+    width: 20%;
+    height: calc(100vh - 210px);
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.categories-list {
+    list-style-type: none;
+}
+
+.categories-list__item {
+    margin-bottom: 24px;
+}
+
+.categories-list__item_selected {
+    font-weight: 700;
+}
