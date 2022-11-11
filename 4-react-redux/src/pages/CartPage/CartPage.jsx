@@ -5,7 +5,7 @@ import { Book } from '../../components/Book/Book'
 export const CartPage = ({ books }) => {
     return <div className='cart-page'>
         <div className='cart-page__order'>
-            <h2>Ваш заказ:</h2>
+            <h2 className='cart-page__order-text'>Ваш заказ:</h2>
             <ul className='cart-page__order-list'>
                 {
                     books.map(

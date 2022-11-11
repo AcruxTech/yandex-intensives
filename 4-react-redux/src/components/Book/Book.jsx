@@ -1,9 +1,15 @@
 import './Book.css' 
 import { BookCounter } from '../BookCounter/BookCounter'
 import { StarsDisplay } from '../StarsDisplay/StarsDisplay'
+import { useSelector } from 'react-redux'
+import { selectBookById } from '../../store/book/selectors'
  
 
-export const Book = ({ book }) => {
+export const Book = ({ bookId }) => {
+    console.log(bookId)
+    const book = useSelector(state => selectBookById(state, bookId));
+    console.log(book)
+    
     return <div className='book'>
        <div className='book-info'>
             <span className='book-info__title'>{ book.title }</span>
@@ -14,6 +20,6 @@ export const Book = ({ book }) => {
             </div>
             <span className='book-info__cost'>{ book.cost }</span>
        </div>
-       <BookCounter></BookCounter>
+       <BookCounter bookId={bookId}></BookCounter>
     </div>
 }

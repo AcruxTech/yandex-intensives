@@ -3,12 +3,13 @@
     min-height: calc(100vh - 70px);
     display: flex;
     justify-content: space-evenly;
+    align-items: flex-start;
     padding-top: 70px;
 }
 
 .cart-page__order {
     width: 30%;
-    min-height: calc(100vh - 210px);
+    height: auto;
     background-color: #fff;
     border-radius: 8px;
     padding: 20px;
@@ -18,10 +19,34 @@
     list-style-type: none;
 }
 
+.cart-page__order-text,
 .cart-page__order-list__item {
     margin-bottom: 24px;
 }
 
 .cart-page__books {
     width: 60%;
+}
+
+.cart_page__order-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cart_page__order-info-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    padding: 12px;
+    color: #fff;
+    background: #000;
+    border: none;
+    cursor: pointer;
+    user-select: none;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
 }

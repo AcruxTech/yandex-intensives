@@ -8,17 +8,22 @@ import { Provider } from "react-redux";
 import { store } from "./store";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { CartPage } from './pages/CartPage/CartPage';
-
+import { NotFoundPage } from './pages/NotFoundPage/NotFoundPage'
 
 
 export const App = () => {
     return (
         <Provider store={store}>
-            <Layout>
-                {/* <BooksPage categories={categories}></BooksPage> */}
-                {/* <BookPage book={books[0]}></BookPage> */}
-                <CartPage books={books}></CartPage>
-            </Layout>
+            <BrowserRouter>
+                <Layout>
+                    <Routes>
+                        <Route index element={<BooksPage categories={categories}></BooksPage>} />
+                        <Route path='book/:bookId' element={<BookPage></BookPage>} />
+                        <Route path='cart' element={<CartPage books={books}></CartPage>} />
+                        <Route path="*" element={<NotFoundPage />} />
+                    </Routes>
+                </Layout>
+            </BrowserRouter>
         </Provider>
     )
 }
