@@ -20,7 +20,7 @@ export const Review = ({ review }) => {
 
     let reviewer;
     users.forEach(user => {
-        if (user.id == review.userId) {
+        if (user.id === review.userId) {
            reviewer = user
         } 
     });

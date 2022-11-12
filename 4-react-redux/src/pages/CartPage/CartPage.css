@@ -17,6 +17,7 @@
 
 .cart-page__order-list {
     list-style-type: none;
+    margin: 15px 0;
 }
 
 .cart-page__order-text,
