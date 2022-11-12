@@ -3,12 +3,9 @@ import { BookCounter } from '../BookCounter/BookCounter'
 import { StarsDisplay } from '../StarsDisplay/StarsDisplay'
 import { useSelector } from 'react-redux'
 import { selectBookById } from '../../store/book/selectors'
- 
 
 export const Book = ({ bookId }) => {
-    console.log(bookId)
     const book = useSelector(state => selectBookById(state, bookId));
-    console.log(book)
     
     return <div className='book'>
        <div className='book-info'>

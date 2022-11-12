@@ -10,30 +10,13 @@ router.get("/categories", (req, res, next) => {
   reply(res, books);
 });
 
-router.get("/films", (req, res, next) => {
-  const { cinemaId, filmId } = req.query;
-  let result = films;
-
-  if (cinemaId) {
-    const cinema = getById(cinemas)(cinemaId);
-    if (cinema) {
-      result = cinema.films.map(getById(result));
-    }
-  }
-
-  if (!cinemaId && filmId) {
-    result = getById(result)(filmId);
-  }
-  reply(res, result);
-});
-
 router.get("/reviews", (req, res, next) => {
   const { id } = req.query;
   let result = reviews;
   if (id) {
-    const cinema = getById(cinemas)(id);
-    if (cinema) {
-      result = cinema.reviews.map(getById(result));
+    const book = getById(books)(id);
+    if (book) {
+      result = book.reviews.map(getById(result));
     }
   }
   reply(res, result);

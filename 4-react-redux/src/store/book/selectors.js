@@ -14,7 +14,7 @@ export const selectBooksByCategory = (state, bookCategory) => {
   return books_by_categoty;
 }
 
-export const selectBookById = (state, bookId) =>
+export const selectBookById = (state, bookId) => 
   selectBookModule(state).entities[bookId];
 
 export const selectBookIds = (state, bookId) =>

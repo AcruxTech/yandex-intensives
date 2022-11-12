@@ -18,7 +18,7 @@ export const App = () => {
                 <Layout>
                     <Routes>
                         <Route index element={<BooksPage categories={categories}></BooksPage>} />
-                        <Route path='book/:bookId' element={<BookPage></BookPage>} />
+                        <Route path='books/:bookId' element={<BookPage></BookPage>} />
                         <Route path='cart' element={<CartPage books={books}></CartPage>} />
                         <Route path="*" element={<NotFoundPage />} />
                     </Routes>
