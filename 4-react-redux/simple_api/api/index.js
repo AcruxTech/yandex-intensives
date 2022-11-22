@@ -1,5 +1,5 @@
 const router = require("express").Router();
-const { books, reviews, users } = require("./mock");
+const { books, reviews, users, categories } = require("./mock");
 const { reply, getById } = require("./utils");
 
 router.get("/books", (req, res, next) => {
@@ -7,7 +7,7 @@ router.get("/books", (req, res, next) => {
 });
 
 router.get("/categories", (req, res, next) => {
-  reply(res, books);
+  reply(res, categories);
 });
 
 router.get("/reviews", (req, res, next) => {

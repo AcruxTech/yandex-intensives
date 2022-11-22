@@ -17,7 +17,7 @@ export const App = () => {
             <BrowserRouter>
                 <Layout>
                     <Routes>
-                        <Route index element={<BooksPage categories={categories}></BooksPage>} />
+                        <Route index element={<BooksPage></BooksPage>} />
                         <Route path='books/:bookId' element={<BookPage></BookPage>} />
                         <Route path='cart' element={<CartPage></CartPage>} />
                         <Route path="*" element={<NotFoundPage />} />
