@@ -12,6 +12,11 @@ function Set(array = []) {
                 }
             }
 
+            // отдельная проверка на NaN
+            if (Number.isNaN(item) && this.has(item)) {
+                return this;
+            }
+
             let index = data.items.indexOf(item);
             // ~ - булево не
             if (!~index) {
@@ -20,6 +25,16 @@ function Set(array = []) {
             return this;
         },
         delete: function(item) {
+            // отдельная проверка на NaN
+            if (Number.isNaN(item) && this.has(item)) {
+                data.items.forEach((item, index) => {
+                    if (Number.isNaN(item)) {
+                        data.items.splice(index, 1); 
+                    }
+                });
+                return true;
+            } 
+
             let index = data.items.indexOf(item);
             if (~index) {
                 data.items.splice(index, 1);
@@ -79,8 +94,8 @@ console.assert(set.has(NaN) === true, 'has NaN')
 console.assert(set.has(object) === true, 'has object')
 console.assert(set.has(undefined) === true, 'has undefined')
 
-// set.add(NaN).add(undefined)
-// console.assert(set.size === array.length, 'add NaN & undefined')
+set.add(NaN).add(undefined)
+console.assert(set.size === array.length, 'add NaN & undefined')
 
 set.add({})
 array.push({})
@@ -102,9 +117,9 @@ res = set.delete(object)
 console.assert(res === true, 'object is deleted')
 console.assert(set.has(object) === false, 'do not includes object')
 
-// res = set.delete(NaN)
-// console.assert(res === true, 'NaN is deleted')
-// console.assert(set.has(NaN) === false, 'do not includes NaN')
+res = set.delete(NaN)
+console.assert(res === true, 'NaN is deleted')
+console.assert(set.has(NaN) === false, 'do not includes NaN')
 
 res = set.delete(undefined)
 console.assert(res === true, 'undefined is deleted')
